@@ -11,7 +11,7 @@ var customer = {
 		customer.checking -= amount;
 		customer.savings += amount;
 	}
-	
+
 };
 
 customer.deposit(1000);
@@ -48,4 +48,14 @@ function downvote() {
 
 	counter = counter - 1;
 	document.getElementById("votes").innerHTML = counter + " votes"
+}
+
+function showAttribute() {
+	const el = document.querySelector("img");
+	el.src = "./images/IMG_20210514_115225_701.jpg";
+}
+
+function changeQuestionType() {
+	const el = document.querySelector("input");
+	el.type = "checkbox";
 }
