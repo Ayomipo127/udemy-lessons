@@ -1,0 +1,27 @@
+#votes{
+	font-weight: bold;
+	font-size: 3rem;
+}
+
+#downvote{
+	background-color: rgb(207, 0, 0);
+	
+}
+
+#upvote{
+	background-color: green;
+}
+
+button{
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+border: none;
+	margin: 7px;
+	color: white;
+	padding: 0.7rem;
+	font-size: 1rem;
+}
+
