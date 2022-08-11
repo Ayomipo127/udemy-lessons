@@ -55,7 +55,19 @@ function showAttribute() {
 	el.src = "./images/IMG_20210514_115225_701.jpg";
 }
 
-function changeQuestionType() {
-	const el = document.querySelector("input");
-	el.type = "checkbox";
+
+function updateValue() {
+	log.innerText = input.value;
 }
+
+var input = document.querySelector('input');
+var log = document.getElementById('log');
+input.onchange = updateValue;
+
+
+function changeColor() {
+	item.classList.toggle("pink");
+}
+
+const item = document.querySelector("h2");
+item.addEventListener("click", changeColor);
