@@ -21,34 +21,31 @@
   <button><a href="#" class="btn">play</a></button>
 
 
-  <fieldset>
-    <form action="" method="post">
-      <h2>LOGIN</h2>
-      <input type="email" name="email" class="input-field" placeholder="Enter Email Here">
-      <br>
-      <input type="password" name="password" class="input-field" placeholder="Enter Password Here">
-      <br>
-      <button class="login-btn"> <a href="#"> Login</a></button>
-      <p class="link">Dont have an account</p> <br>
+  <div class="calculator-form">
+    <h1>
+      AGE CALCULATOR
+    </h1>
+    <div class="inputs">
+      <div class="block">
+        <label for="date">Date</label>
+        <input type="number" min="0" max="31" id="date" class="input" placeholder="dd">
+      </div>
 
-      <a href="#" id="sign-up"> Sign up here</a>
+      <div class="block">
+        <label for="month">Month</label>
+        <input type="number" min="0" max="12" id="month" class="input" placeholder="mm">
 
+      </div>
 
-      <button class="sign-btn "><a href="#"> SIGN UP!</a></button>
+      <div class="block">
+        <label for="year">Year</label>
+        <input type="number" min="1900" id="year" class="input" placeholder="yyyy">
+      </div>
+    </div>
 
-    </form>
-  </fieldset>
-
-  <input type="range">
-
-  <p>new range</p>
-
-  <p id="log"></p>
-
-  <h2 class="item"></h2>
-
-
-
+    <button class="btn" type="submit" onclick="calculateAge()"> Submit</button>
+    <p id="displayAge"></p>
+  </div>
 
 
 
