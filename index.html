@@ -7,44 +7,25 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <link rel="stylesheet" href="style.css">
+  <title> Quick Quiz</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 
 <body>
 
-  <div class="container">
-    <div id="home" class="flex-center flex-column"></div>
-  </div>
-  <h1>Quick Quiz</h1>
-
-  <button> <a href="fet.html" class="btn">other website</a></button>
-  <button><a href="#" class="btn">play</a></button>
-
-
-  <div class="calculator-form">
-    <h1>
-      AGE CALCULATOR
-    </h1>
-    <div class="inputs">
-      <div class="block">
-        <label for="date">Date</label>
-        <input type="number" min="0" max="31" id="date" class="input" placeholder="dd">
-      </div>
-
-      <div class="block">
-        <label for="month">Month</label>
-        <input type="number" min="0" max="12" id="month" class="input" placeholder="mm">
-
-      </div>
-
-      <div class="block">
-        <label for="year">Year</label>
-        <input type="number" min="1900" id="year" class="input" placeholder="yyyy">
-      </div>
+  <div class="tdl-holder">
+    <h2>TO DO LIST</h2>
+    <div class="tdl-content">
+      <ul>
+        <li><label><input type="checkbox"><i></i><span>get up</span><a href='#'>–</a></label></li>
+        <li><label><input type="checkbox" checked><i></i><span>stand up</span><a href='#'>–</a></label></li>
+        <li><label><input type="checkbox"><i></i><span>don't give up the fight.</span><a href='#'>–</a></label></li>
+        <li><label><input type="checkbox" checked><i></i><span>save the world.</span><a href='#'>–</a></label></li>
+        <li><label><input type="checkbox"><i></i><span>do something else</span><a href='#'>–</a></label></li>
+      </ul>
     </div>
-
-    <button class="btn" type="submit" onclick="calculateAge()"> Submit</button>
-    <p id="displayAge"></p>
+    <input type="text" class="tdl-new" placeholder="Write new item and hit 'Enter'...">
   </div>
 
 
@@ -54,11 +35,25 @@
 
 
 
-  <script src="script.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="js/boh.js"></script>
 
 
 </body>
-
 
 
 </html>

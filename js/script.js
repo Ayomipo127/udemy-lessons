@@ -75,5 +75,15 @@ const calculateAge = () => {
 	let y = y2 - y1;
 
 
-	document.getElementById("displayAge").innerText = 'your Age is ${y} Years, ${m} Months and $ Days';
+	document.getElementById("displayAge").innerText = 'Your Age is ${y} Years, ${m} Months and ${d} Days';
 }
+
+const person = {
+	name: "Zodiac Hasbro",
+	age: 56
+};
+
+const greeting = `Hello, my name is ${person.name}!
+I am ${person.age} years old.`;
+
+alert(greeting);
